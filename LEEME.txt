@@ -1,0 +1,4 @@
+Para instalar el proyecto yo use la ultima vercion de laragon 
+en el php.ini 
+puse esta extencion para que funcine mysql ;extension=mysqli
+y hay que insertar los datos de sql.sql para tener los datos de los select y para poder insertar los datos "
