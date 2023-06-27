@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sistema de Votacion</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>Sistema de Votacion</h1>
+  <form id="votingForm" method="POST">
+    <label for="nombre">Nombre y Apellido:</label>
+    <input type="text" id="nombre" name="nombre" required><br>
+
+    <label for="alias">Alias:</label>
+    <input type="text" id="alias" name="alias" required><br>
+
+    <label for="rut">RUT:</label>
+    <input type="text" id="rut" name="rut" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="region">Region:</label>
+    <select id="region" name="region" required></select><br>
+
+    <label for="comuna">Comuna:</label>
+    <select id="comuna" name="comuna" required></select><br>
+
+    <label for="candidato">Candidato:</label>
+    <select id="candidato" name="candidato" required></select><br>
+
+    <label>Como se enteró de Nosotros:</label><br>
+    <input type="checkbox" id="webTV" name="como_entero[]" value="WEB TV"> WEB TV<br>
+    <input type="checkbox" id="TV" name="como_entero[]" value="TV"> TV<br>
+    <input type="checkbox" id="redesSociales" name="como_entero[]" value="Redes Sociales"> Redes Sociales<br>
+    <input type="checkbox" id="amigo" name="como_entero[]" value="Amigo"> Amigo<br>
+
+    <input type="submit" value="VOTAR">
+  </form>
+</body>
+</html>
